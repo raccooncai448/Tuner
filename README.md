@@ -47,7 +47,7 @@ List of relevant packages:
 
 <!-- ROADMAP -->
 ## Roadmap
-
+**NOTE: See log_images/ for images of training process in case you run into trouble with setup**
 - [**Web-Scraping**] I decided to use beautiful soup in order to scrape Wikipedia pages. This involved parsing through all the paragraphs of text, and stripping punctuation as well as new line characters. I saved the scraped text and corresponding Wikipedia pages in dictionaries and text files for further processing. 
 - [**Preprocessing**] I chose to use GPT2 as my tokenizer and model (although it should be trivial to change this to LLaMA using Hugging Face's libraries). I generate a vocab of unique words found in the Wikipedia corpus, and identify the words that do not exist in GPT2's vocabulary. I also generate json files as custom datasets to be trained on in the fine-tuning process.
 - [**New Embedding Initialization**] To ensure low KL (Kullback-Leibler) divergence in the the new word embeddings, I decide to initialize new embeddings by 'averaging' the existing embeddings. The new embeddings are randomly initialized from a normal distribution centered around the average embedding. This ensures we don't lose the info encoded by the distribution of embeddings we pretrained.
