@@ -29,11 +29,13 @@ def main():
     model = transformers.AutoModelForCausalLM.from_pretrained('gpt2')
     
     #for count, word in enumerate(vocab.keys()):
-        #print(word)
-        #print(tok.convert_ids_to_tokens(tok(word)['input_ids']))
+    #    print(word)
+    #    print(tok.convert_ids_to_tokens(tok(word)['input_ids']))
+    
+    
     oov_list = []
     for word in vocab.keys():
-        if (word != tok.convert_ids_to_tokens(tok(word)['input_ids'])):
+        if ([word] != tok.convert_ids_to_tokens(tok(word)['input_ids'])):
             oov_list.insert(0, word)
     assert len(oov_list) > 0
     print(f'Found {len(oov_list)} untokenized words!')
