@@ -42,7 +42,9 @@ List of relevant packages:
 ## Project Overview
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+In this repo, I scrape through several hundred Wikipedia articles, preprocess and identify OOV (out-of-vocabulary) words and generate new tokens for them using an average initialization strategy. I prepare a dataset using this web-scraped corpus of text and fine-tune an LLM solely on this text (based on an open-source fine-tuning script). Finally, I run experiments on the final performance with the general text generation task as well as generation with our OOV words as prompts.
+ <br />
+The folder 'cache/' contains the data and reference json files, which contain the raw data as well as the data in a title-text format. The text file 'new_words.txt' contains a list of the new words to be initialized, as well as the Tokenizer's splitting of the word, to confirm that the words are OOV. 'samples.txt' contains generated samples of text using the entire vocab, as well as with our specific newly initialized/fine-tuned words.
 
 
 <!-- ROADMAP -->
@@ -56,11 +58,10 @@ List of relevant packages:
 - [**Fine-Tuning**] I use [Hugging Face's tutorial] (https://huggingface.co/docs/transformers/training) as reference to help fine-tune my model on my custom dataset. 
 
 <!-- ACKNOWLEDGMENTS -->
-## Ongoing work
+## Ongoing work / Issues
 
-* []()
-* []()
-* []()
+* [**Faulty Generation with New Embeddings**] In the file 'cache/samples.txt' the example sentences generated seem reasonable, indicating the embedding distributions weren't altered through our average initialization. However, generating with our new vocab as a prompt yields incoherent output, likely a result of small amounts of training data. Further data collection and training needed to fine-tune these embeddings.
+* [**Too Many OOV Words**] Since GPT2 Tokenizer tokenizes certain words into subtokens, this results in us identifying longer words as 'unique' tokens. For example, "undefeated" is tokenized into "un" + "defeat" + "ed", so we are forced to add an embedding for "undefeated," even though it's a common word. Should be fixed by using a different toeknizer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
