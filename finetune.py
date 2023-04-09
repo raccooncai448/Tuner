@@ -274,10 +274,6 @@ def finetune(vocab=[]):
             revision=model_args.model_revision,
             use_auth_token=True if model_args.use_auth_token else None,
         )
-    else:
-        model = AutoModelForCausalLM.from_config(config)
-        n_params = sum(dict((p.data_ptr(), p.numel()) for p in model.parameters()).values())
-        logger.info(f"Training new model from scratch - Total size={n_params/2**20:.2f}M params")
 
     model.resize_token_embeddings(len(tokenizer))
 
@@ -387,11 +383,16 @@ def finetune(vocab=[]):
     )
 
     def write_some_samples():
-      samples_path = os.path.join(training_args.output_dir, 'samples.txt')
+      prompt = vocab[0]
+      inputs = tokenizer(prompt, return_tensors='pt')
+      samples_path = 'cache/samples.txt'
       with open(samples_path, 'w') as fout:
+        fout.write("Normal generation: \n")
         for i in range(5):
           sample_ids = model.generate(return_dict_in_generate=True, output_scores=True, max_new_tokens=50, do_sample=True).sequences[0]
           fout.write(tokenizer.decode(sample_ids)+'\n')
+        outputs = model.generate(**inputs)
+        fout.write("Generating with new vocab: \n" + tokenizer.batch_decode(outputs, skip_special_tokens=True)[0])
     write_some_samples()
 
     # Training

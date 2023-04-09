@@ -5,7 +5,7 @@ import json
 import os
 
 from datasets import load_dataset
-from preprocess import get_data
+from preprocess import get_data, process
 from scraper import generate
 from finetune import finetune
 
@@ -17,7 +17,7 @@ except:
 LOG_FILE = 'cache/corpus.txt'
 DATA_FILE = 'cache/data.json'
 REF_FILE = 'cache/ref.json'
-BREADTH = 4
+BREADTH = 200
 
 def main():
     ### TO-DO: Generate data and vocab from wikipedia articles
@@ -34,11 +34,16 @@ def main():
     
     
     oov_list = []
-    for word in vocab.keys():
-        if ([word] != tok.convert_ids_to_tokens(tok(word)['input_ids'])):
-            oov_list.insert(0, word)
+    with open('cache/new_words.txt', "w") as outfile:
+        for word in vocab.keys():
+            if len(tok.convert_ids_to_tokens(tok(word)['input_ids'])) > 1 or (process(word) != process(tok.convert_ids_to_tokens(tok(word)['input_ids'])[0])):
+                    outfile.write(word + ' --- ')
+                    outfile.write(tok.convert_ids_to_tokens(tok(word)['input_ids'])[0])
+                    outfile.write('\n')
+                    oov_list.insert(0, word)
+    oov_list = list(set(oov_list))
     assert len(oov_list) > 0
-    print(f'Found {len(oov_list)} untokenized words!')
+    print(f'Found {len(oov_list)} untokenized words! Saved to new_words.txt')
 
 
     '''tok.add_tokens(oov_list)

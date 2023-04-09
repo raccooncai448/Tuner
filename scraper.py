@@ -1,4 +1,5 @@
 from urllib.request import urlopen
+from preprocess import process
 from bs4 import BeautifulSoup
 import re
 import string
@@ -21,18 +22,20 @@ def scrape():
     text = ' '.join(text)
     text = re.sub(r"\[.*?\]+", '', text)
     text = text.replace('\n', '')[:-11]
+    text = process(text)
 
     return title, text
 
 def generate(iter, file_path,):
     print(f'Scraping for {iter} wikipedia articles')
-    dict = ref = {}
-    dict['text'] = ''
+    ref = {}
+    dict = {}
     i = 0
 
     def encoder(input):
         return str(input.encode(encoding='utf-8').decode('ascii', 'ignore'))
     
+    saved_text = ''
     dbg = 0
     while i < iter and dbg < iter*5:
         title, text = scrape()
@@ -42,12 +45,14 @@ def generate(iter, file_path,):
             title, text = encoder(title), encoder(text)
             with open(file_path, "w") as f:
                 f.write(text)
-                dict['text'] += text
+                saved_text += text
+                saved_text += '  '
                 ref[title] = text
             i += 1
         except:
             dbg += 1
             continue
+    dict['text'] = saved_text
     
     if dbg == iter*5:
         raise Exception("Error with parsing wikipedia -- try re-running?")

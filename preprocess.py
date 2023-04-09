@@ -1,5 +1,13 @@
 import numpy as np
 from functools import reduce
+import string
+
+def process(text):
+    text = text.translate(str.maketrans('','',string.punctuation))
+    text = text.translate(str.maketrans('','','1234567890'))
+    text = text.lower()
+    return text
+
 
 def get_data(train_file, test_file):
     vocabulary, vocab_size, train_data, test_data = {}, 0, [], []

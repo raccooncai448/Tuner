@@ -14,7 +14,7 @@
     },
     {
       "id": 50257,
-      "content": "<unk>",
+      "content": "brooks",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -23,7 +23,7 @@
     },
     {
       "id": 50258,
-      "content": "@-@",
+      "content": "bollinger",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -32,7 +32,7 @@
     },
     {
       "id": 50259,
-      "content": "@.@",
+      "content": "badgers",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -41,7 +41,7 @@
     },
     {
       "id": 50260,
-      "content": "@,@",
+      "content": "ucla",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -50,7 +50,7 @@
     },
     {
       "id": 50261,
-      "content": "became",
+      "content": "uclas",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": 50262,
-      "content": "several",
+      "content": "touchdown",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -68,7 +68,7 @@
     },
     {
       "id": 50263,
-      "content": "began",
+      "content": "responded",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -77,636 +77,6 @@
     },
     {
       "id": 50264,
-      "content": "following",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50265,
-      "content": "took",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50266,
-      "content": "included",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50267,
-      "content": "moved",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50268,
-      "content": "considered",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50269,
-      "content": "career",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50270,
-      "content": "came",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50271,
-      "content": "continued",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50272,
-      "content": "songs",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50273,
-      "content": "Division",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50274,
-      "content": "become",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50275,
-      "content": "however",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50276,
-      "content": "further",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50277,
-      "content": "gave",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50278,
-      "content": "Dylan",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50279,
-      "content": "tropical",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50280,
-      "content": "returned",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50281,
-      "content": "reached",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50282,
-      "content": "noted",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50283,
-      "content": "throughout",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50284,
-      "content": "across",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50285,
-      "content": "himself",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50286,
-      "content": "performed",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50287,
-      "content": "miles",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50288,
-      "content": "television",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50289,
-      "content": "areas",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50290,
-      "content": "previous",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50291,
-      "content": "died",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50292,
-      "content": "U.S.",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50293,
-      "content": "various",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50294,
-      "content": "County",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50295,
-      "content": "caused",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50296,
-      "content": "characters",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50297,
-      "content": "others",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50298,
-      "content": "construction",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50299,
-      "content": "’",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50300,
-      "content": "remained",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50301,
-      "content": "located",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50302,
-      "content": "scored",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50303,
-      "content": "completed",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50304,
-      "content": "Kingdom",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50305,
-      "content": "novel",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50306,
-      "content": "least",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50307,
-      "content": "followed",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50308,
-      "content": "appeared",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50309,
-      "content": "island",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50310,
-      "content": "Cup",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50311,
-      "content": "originally",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50312,
-      "content": "addition",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50313,
-      "content": "hurricane",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50314,
-      "content": "southern",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50315,
-      "content": "critics",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50316,
-      "content": "eventually",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50317,
-      "content": "taken",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50318,
-      "content": "eastern",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50319,
-      "content": "decided",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50320,
-      "content": "Battalion",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50321,
-      "content": "believed",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50322,
-      "content": "Carey",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50323,
-      "content": "poem",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50324,
-      "content": "generally",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50325,
-      "content": "Federer",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50326,
-      "content": "towards",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50327,
-      "content": "elements",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50328,
-      "content": "weeks",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50329,
-      "content": "brought",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50330,
-      "content": "Brigade",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50331,
-      "content": "No.",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50332,
-      "content": "Wales",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50333,
-      "content": "highway",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50334,
       "content": "featured",
       "single_word": false,
       "lstrip": false,
@@ -715,8 +85,8 @@
       "special": false
     },
     {
-      "id": 50335,
-      "content": "aircraft",
+      "id": 50265,
+      "content": "chris",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -724,8 +94,8 @@
       "special": false
     },
     {
-      "id": 50336,
-      "content": "tour",
+      "id": 50266,
+      "content": "references",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -733,8 +103,8 @@
       "special": false
     },
     {
-      "id": 50337,
-      "content": "appearance",
+      "id": 50267,
+      "content": "freddie",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -742,8 +112,8 @@
       "special": false
     },
     {
-      "id": 50338,
-      "content": "earlier",
+      "id": 50268,
+      "content": "fargo",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -751,8 +121,8 @@
       "special": false
     },
     {
-      "id": 50339,
-      "content": "victory",
+      "id": 50269,
+      "content": "wells",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -760,8 +130,8 @@
       "special": false
     },
     {
-      "id": 50340,
-      "content": "operations",
+      "id": 50270,
+      "content": "griffin",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -769,8 +139,8 @@
       "special": false
     },
     {
-      "id": 50341,
-      "content": "troops",
+      "id": 50271,
+      "content": "wisconsin",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -778,8 +148,8 @@
       "special": false
     },
     {
-      "id": 50342,
-      "content": "attempt",
+      "id": 50272,
+      "content": "bruins",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -787,8 +157,8 @@
       "special": false
     },
     {
-      "id": 50343,
-      "content": "wanted",
+      "id": 50273,
+      "content": "threw",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -796,8 +166,8 @@
       "special": false
     },
     {
-      "id": 50344,
-      "content": "19th",
+      "id": 50274,
+      "content": "receiver",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -805,8 +175,8 @@
       "special": false
     },
     {
-      "id": 50345,
-      "content": "northern",
+      "id": 50275,
+      "content": "paus",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -814,8 +184,8 @@
       "special": false
     },
     {
-      "id": 50346,
-      "content": "possible",
+      "id": 50276,
+      "content": "quarterback",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -823,8 +193,8 @@
       "special": false
     },
     {
-      "id": 50347,
-      "content": "A.",
+      "id": 50277,
+      "content": "evans",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -832,8 +202,8 @@
       "special": false
     },
     {
-      "id": 50348,
-      "content": "saying",
+      "id": 50278,
+      "content": "cory",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
@@ -841,71 +211,8 @@
       "special": false
     },
     {
-      "id": 50349,
-      "content": "whom",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50350,
-      "content": "Missouri",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50351,
-      "content": "Island",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50352,
-      "content": "praised",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50353,
-      "content": "remains",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50354,
-      "content": "winds",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50355,
-      "content": "increased",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": false,
-      "normalized": true,
-      "special": false
-    },
-    {
-      "id": 50356,
-      "content": "previously",
+      "id": 50279,
+      "content": "mitchell",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
