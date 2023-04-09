@@ -3,6 +3,16 @@
 
 
 
+<!-- USAGE EXAMPLES -->
+## Project Overview
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+In this repo, I conduct a vocabulary expansion task, where I scrape through several hundred Wikipedia articles, preprocess and identify OOV (out-of-vocabulary) words and generate new tokens for them using an average initialization strategy. I prepare a dataset using this web-scraped corpus of text and fine-tune an LLM solely on this text (based on an open-source fine-tuning script). Finally, I run experiments on the final performance with the general text generation task as well as generation with our OOV words as prompts.
+ <br />
+The folder 'cache/' contains the data and reference json files, which contain the raw data as well as the data in a title-text format. The text file 'new_words.txt' contains a list of the new words to be initialized, as well as the Tokenizer's splitting of the word, to confirm that the words are OOV. 'samples.txt' contains generated samples of text using the entire vocab, as well as with our specific newly initialized/fine-tuned words.
+<br />
+Due to compute and time limits, I scrape roughly 200 Wikipedia articles, and train for roughly ten epochs. As such, the results are more proof of concept of this vocabulary expansion/domain adaptation task. Further experiments would involve larger scale scraping and training. Specifically, a corpus that contains multiple instances of OOV words would improve fine-tuning. 
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -34,18 +44,6 @@ List of relevant packages:
   transformers              4.27.4
 
   ```
-
-
-
-
-<!-- USAGE EXAMPLES -->
-## Project Overview
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-In this repo, I scrape through several hundred Wikipedia articles, preprocess and identify OOV (out-of-vocabulary) words and generate new tokens for them using an average initialization strategy. I prepare a dataset using this web-scraped corpus of text and fine-tune an LLM solely on this text (based on an open-source fine-tuning script). Finally, I run experiments on the final performance with the general text generation task as well as generation with our OOV words as prompts.
- <br />
-The folder 'cache/' contains the data and reference json files, which contain the raw data as well as the data in a title-text format. The text file 'new_words.txt' contains a list of the new words to be initialized, as well as the Tokenizer's splitting of the word, to confirm that the words are OOV. 'samples.txt' contains generated samples of text using the entire vocab, as well as with our specific newly initialized/fine-tuned words.
-
 
 <!-- ROADMAP -->
 ## Roadmap
