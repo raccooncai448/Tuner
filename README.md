@@ -11,7 +11,8 @@ In this repo, I conduct a vocabulary expansion task, where I scrape through seve
  <br />
 The folder 'cache/' contains the data and reference json files, which contain the raw data as well as the data in a title-text format. The text file 'new_words.txt' contains a list of the new words to be initialized, as well as the Tokenizer's splitting of the word, to confirm that the words are OOV. 'samples.txt' contains generated samples of text using the entire vocab, as well as with our specific newly initialized/fine-tuned words.
 <br />
-Due to compute and time limits, I scrape roughly 200 Wikipedia articles, and train for roughly ten epochs. As such, the results are more proof of concept of this vocabulary expansion/domain adaptation task. Further experiments would involve larger scale scraping and training. Specifically, a corpus that contains multiple instances of OOV words would improve fine-tuning. 
+One issue/confusion that I ran into was the fact that modern tokenizers typically use subword tokenizers, i.e. the word "undefeated" could become the tokens "un" + "defeat" + "ed." This means that in addition to new words/acronyms, I initialized new embeddings for a lot of common words, which I'm not sure is the correct behavior.
+Due to compute and time limits, I scrape roughly 200 Wikipedia articles, and train for roughly ten epochs. As such, the results are more proof of concept of this vocabulary expansion/domain adaptation task. Further experiments would involve larger scale scraping and training. Specifically, a corpus that contains multiple instances of OOV words would improve fine-tuning.
 
 
 <!-- GETTING STARTED -->
